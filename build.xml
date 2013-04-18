@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
-   <project name="lexer" default="lexer.flex">
-   <target name="lexer.flex">
-	<jflex file="lexer.flex"/>
-   </target>
+<project name="FlexProyecto" default="FlexProyecto" basedir=".">
+<taskdef classname="JFlex.anttask.JFlexTask" name="jflex" />
+    <target name="FlexProyecto">
+        <jflex file="lexer.flex" />
+    </target>
 </project>
